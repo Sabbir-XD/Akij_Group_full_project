@@ -1,0 +1,1 @@
+# Akij_Group_full_project
