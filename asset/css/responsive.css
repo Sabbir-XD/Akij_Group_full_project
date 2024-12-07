@@ -1,0 +1,649 @@
+
+/* mini mobile divice */
+@media (min-width: 320px) and (max-width: 575px){ 
+  .h_title {
+   display: none;
+}
+
+.h_icon{
+  padding-left: 0px;
+ }
+
+.h_icon li .c_iocn{
+  font-size: 12px;
+  color: #2e6abf;
+  line-height: 35px;
+}
+
+.fa-envelope1{
+  background-image: linear-gradient(90deg,#00f,#87ceeb);
+  color: transparent;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.mail_icon span {
+  color: #000;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* header part in responsive start */
+.header_icon{
+  display: none;
+}
+
+.header_contain{
+  display: none;
+}
+
+.logo_title {
+  margin-top: 5px;
+  font-weight: 600;
+  line-height: 18px;
+  font-size: 16px;
+}
+
+.quintity h3 {
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.quintity p {
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+.q_title::before {
+	background: #008aff;
+	position: absolute;
+	top: -8px;
+	left: 27px;
+	width: 35px;
+	height: 3px;
+	display: block;
+	content: "";
+}
+
+.q_title::after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: 24px;
+	background: #2e6abf;
+	width: 3px;
+	height: 25px;
+}
+
+.q_title2::before {
+	background: #008aff;
+	position: absolute;
+	bottom: -2px;
+	right: 5px;
+	width: 3px;
+	height: 30px;
+	display: block;
+	content: "";
+}
+
+.q_title2::after {
+	content: "";
+	position: absolute;
+	background: #008aff;
+	width: 30px;
+	height: 3px;
+	bottom: -5px;
+	right: 5px;
+}
+
+.quintity{
+  padding-left: 20px;
+}
+/* header part in responsive end */
+
+/* navigation part in responsive start  */
+.navbar-toggler-icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	background-image: var(--bs-navbar-toggler-icon-bg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.navbar-toggler {
+	padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+	font-size: var(--bs-navbar-toggler-font-size);
+	line-height: 1;
+	color: var(--bs-navbar-color);
+	background-color: #fff;
+	border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+	border-radius: var(--bs-navbar-toggler-border-radius);
+	transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler:focus{
+  background-color: #1662dc;
+  border-color: ;
+}
+/* navigation part in responsive end  */
+
+/* bg part in responsive start */
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	bottom: 3rem;
+	left: 15%;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	color: #fff;
+	text-align: center;
+}
+
+.carousel-caption h5 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.carousel_text {
+  display: none;
+}
+
+.courosel-a{
+  display: none;
+}
+
+.carousel-caption p{
+  display: none;
+}
+/* bg part in responsive end */
+
+/* about part in responsive strat */
+.about-animation img {
+  width: 55px;
+  height: 30px;
+}
+
+.respon320{
+  font-size: 8px;
+}
+
+
+.about_box h4{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.about_main{
+  margin-bottom: 30px;
+}
+
+.about_box{
+  margin-top: 20px;
+}
+
+.c_h_part{
+  padding-top: 20px;
+}
+
+.c_h_text{
+  font-size: 12px;
+  padding-top: 5px;
+}
+.c_h_title{
+   font-size: 1.2rem;
+   padding-top: 5px;
+}
+/* about part in responsive end */
+
+/* co-founder part in responsive start */
+.co-founder_contain h3{
+  font-size: 18px;
+}
+.co-founder_contain p{
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.founder_btn-a {
+	padding: 8px 14px;
+	display: inline-block;
+	border-radius: 25px;
+	cursor: pointer;
+	color: #fff;
+	border: none;
+	background-color: #005bea;
+	background-image: linear-gradient(90deg,#005bea 0,#00c6fb 50%,#005bea);
+	transition: all .2s ease-in-out;
+	background-size: 200% 100%;
+}
+a.founder_btn-a{
+  font-size: 12px;
+}
+
+.founder_main{
+  padding: 30px 0;
+}
+.co-founder_contain{
+  padding-top: 30px;
+}
+/* co-founder part in responsive end */
+
+/* our compani in respon sive start */
+.company-profile-img {
+  height: 120px;
+  width: 120px;
+}
+
+.company-profile-img {
+  background-color: #fff;
+  box-shadow: 2px 3px 3px 2px rgba(0,0,0,.1);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.company-profile-div{
+  margin-left: 20px;
+}
+
+.company-profile-div p{
+  font-size: 12px;
+  color: #242424;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  padding-right: 30px;
+
+}
+
+/* our compani in respon sive end */
+
+/* The Strategies part in css start */
+.the_contain{
+  padding-top: 30px;
+  padding-left: 10px;
+}
+/* The Strategies part in css end */
+
+/* our product part in html start */
+.product-div-image img {
+  height: 140px;
+  width: 140px;
+}
+
+.product-div-image p{
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+.our-products-div{
+  margin-left: 10px;
+}
+
+.product-button-a {
+  padding: 10px 14px;
+}
+
+a.product-button-a{
+  font-size: 12px;
+}
+/* our product part in html end */
+
+/* board part in responsive start */
+.bod-card{
+  margin-left: 10px;
+}
+/* board part in responsive end */
+
+/* achivment part */
+.ach-end{
+  font-size: 12px;
+  font-weight: 500;
+}
+.respon3-5{
+  display: none;
+}
+/* achivment part */
+
+/* news part in responsive start */
+.card{
+  margin-right: 18px;
+}
+
+.all-news-eve-button-a {
+	padding: 10px 14px;
+}
+a.all-news-eve-button-a {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.news_main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* news part in responsive end */
+
+/* form con part responsive start */
+.form_con{
+  margin-top: -50px;
+}
+
+.form_con h5{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(248, 249, 250);
+  margin-bottom: 10px;
+}
+
+.form_con p{
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(248, 249, 250);
+  margin-bottom: 10px;
+}
+
+input:first-child {
+  margin-bottom: 20px;
+}
+
+input{
+  width: 100%;
+  height: 35px;
+}
+
+input::placeholder{
+  font-size: 14px;
+}
+
+.nws-ltr-sub{
+  width: 100px;
+  height: 30px;
+}
+/* form con part responsive end */
+
+/* footer part in responsive start */
+.first-widget h3 {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.first-widget p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.footer-social i {
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 35px;
+  border: 1px solid #fff;
+  margin-top: 10px;
+  transition: all linear 1s ease-in-out;
+}
+
+.quick-address {
+  padding-left: 20px;
+}
+
+.footer-contact-us {
+  color: #fff;
+  font-size: 15px;
+}
+
+.quick-icon ul li .fa-phone{
+  transform: rotate(270deg);
+  font-size: 11px;
+}
+
+.quick-icon ul li a{
+  color: #fff;
+  font-size: 11px;
+}
+
+.main-last-widget li a {
+  color: #fff;
+  font-size: 12px;
+}
+
+.main-last-widget img{
+  margin-top: -20px;
+  width: 120px;
+}
+
+.footer-pro p{
+  font-size: 12px;
+ padding-top: 0px;
+ padding-bottom: 15.2px;
+}
+
+/* footer part in responsive end */
+
+/* co-founder responsive */
+.founder320{
+  margin-top: 50px;
+}
+/* co-founder responsive */
+
+/* chairman responsive */
+.message__pb {
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.chairman-name {
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.chairman-title{
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 0px;
+  color:  rgb(33, 37, 41);
+}
+
+.c_group{
+  font-size: 12px;
+}
+.message-description {
+  font-size: 12px;
+}
+
+.message-heading {
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.c_massage{
+  background-color: #e6f5fe;
+  padding: 10px 20px;
+}
+
+.c_massage h3{
+  font-size: 15px;
+  font-weight: 700;
+  color: #007bff!important;
+}
+
+.c_massage h5{
+   font-size: 12px;
+   font-weight: 700;
+   padding-top: 5px;
+   color:  rgb(33, 37, 41);
+}
+
+.c_massage p{
+   font-size: 12px;
+   font-weight: 400;
+   padding-top: 5px;
+   color:  rgb(33, 37, 41);
+}
+/* chairman responsive */
+
+/* mission and vission part */
+.mission_1{
+  display: none;
+}
+
+.mission_2{
+  display: none;
+}
+.mission_3{
+  margin: 25px 0;
+}
+.mv__heading{
+  font-size: 20px;
+  font-weight: 700;
+}
+.third-row-p {
+  font-size: 12px;
+  line-height: 25px;
+}
+/* mission and vission part */
+
+/* our compani responsive */
+
+/* our compani responsive */
+.company-profile-div {
+	margin-left: 10px;
+}
+
+.brand_main{
+  padding: 25px 0px;
+} 
+
+
+/* product responsive */
+.product-filters{
+   background-color: #000;
+   width: 60%;
+   margin: 0 auto;
+   
+}
+.product-filters .filter-btn{
+  font-size: 12px;
+}
+
+.card-pro{
+  margin: 0 auto;
+}
+/* product responsive */
+
+
+/* news&event responsive */
+.news-card{
+  width: 100%;
+  height: 250px;
+}
+
+.news-card img{
+  object-fit: cover;
+}
+
+.card-des {
+  line-height: 12px;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.card-des p {
+ font-size: 12px;
+ font-size: 600;
+ margin-top: -15px;
+}
+
+.card-des p:last-child {
+  font-size: 11px;
+  font-size: 500;
+  color: #000;
+ }
+
+
+.top_heading2{
+  display: none;
+}
+/* news&event responsive */
+
+/* newsletter responsive */
+.fa-arrow-right:before {
+  font-size: 20px;
+  margin-left: 160px;
+ 
+}
+
+.newsletter-des p{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #fff;
+}
+
+.news-letter-call {
+  font-size: 14px;
+  color: #fff;
+}
+
+.mini-mobile{
+  margin: -80px 0;
+}
+
+.newsletter-heading {
+  margin: -20px 0;
+}
+
+/* newsletter responsive */
+
+/* contact responsive */
+.image-map-img {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.form-div{
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.map iframe{
+  width: 300px;
+  height: 300px;
+}
+/* contact responsive */
+
+
+
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 768px){ 
+ 
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 769px) and (max-width: 991px){ ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px){ ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399px){ ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
