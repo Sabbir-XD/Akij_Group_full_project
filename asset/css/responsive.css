@@ -1,7 +1,11 @@
 
 /* mini mobile divice */
 @media (min-width: 320px) and (max-width: 575px){ 
-  .h_title {
+ .slick-next {
+    right: 0px;
+ }
+
+.h_title {
    display: none;
 }
 
